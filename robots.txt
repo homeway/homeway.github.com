@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://homeway.github.io/sitemap.xml 
