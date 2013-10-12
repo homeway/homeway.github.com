@@ -1,46 +1,60 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 概述
+tagline: 使用Ruby进行敏捷开发
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Ruby非常适合实践敏捷开发，特别是Ruby On Rails。
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+了解 [Ruby语言](http://www.ruby-lang.org/zh_cn/)
 
-## Update Author Attributes
+了解 Ruby On Rails
+[英文](http://guides.rubyonrails.org/getting_started.html)
+[中文](http://guides.ruby-china.org/index.html)
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+## 敏捷宣言
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+我们通过身体力行和帮助他人来揭示更好的软件开发方式。经由这项工作，我们形成了如下价值观：
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+* 个体与交互 重于 过程和工具
+* 可用的软件 重于 完备的文档
+* 客户协作   重于 合同谈判
+* 响应变化   重于 遵循计划
 
-    $ rm -rf _posts/core-samples
+在每对比对中，后者并非全无价值，但我们更看重前者。
 
-Here's a sample "posts list".
+《敏捷宣言》背后的12准则：
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+1. 我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。
+2. 欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。
+3. 要不断交付可用的软件，周期从几周到几个月不等，且越短越好。
+4. 项目过程中，业务人员与开发人员必须在一起工作。
+5. 要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。
+6. 无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。
+7. 可用的软件是衡量进度的主要指标。
+8. 敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。
+9. 对技术的精益求精以及对设计的不断完善将提升敏捷性。
+10. 要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。
+11. 最佳的架构、需求和设计出自于自组织的团队。
+12. 团队要定期反省如何能够做到更有效，并相应地调整团队的行为。
 
-## To-Do
+## 行为驱动开发
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+BDD：Behavior Driven Development，行为驱动开发是一种敏捷软件开发的技术，它鼓励软件项目中的开发者、QA和非技术人员或商业参与者之间的协作。
 
+BDD最初是由Dan North在2003年命名，它包括验收测试和客户测试驱动等的极限编程的实践，作为对测试驱动开发的回应。在过去数年里，它得到了很大的发展。
 
+2009年，在伦敦发表的“敏捷规格，BDD和极限测试交流”中，Dan North对BDD给出了如下定义：
+BDD是第二代的、由外及内的、基于拉(pull)的、多方利益相关者的(stakeholder)、多种可扩展的、高自动化的敏捷方法。它描述了一个交互循环，可以具有带有良好定义的输出（即工作中交付的结果）：已测试过的软件。
+
+BDD的重点是通过与利益相关者的讨论取得对预期的软件行为的清醒认识。它通过用自然语言书写非程序员可读的测试用例扩展了测试驱动开发方法。行为驱动开发人员使用混合了领域中统一的语言的母语语言来描述他们的代码的目的。这让开发着得以把精力集中在代码应该怎么写，而不是技术细节上，而且也最大程度的减少了将代码编写者的技术语言与商业客户、用户、利益相关者、项目管理者等的领域语言之间来回翻译的代价。
+
+Dan North创造了首个BDD框架：JBehave；之后是Ruby语言的基于故事的RBehave，后来被纳入了RSpec项目。他还与大卫赫利姆斯基、Aslak Hellesøy及其他人开发了RSpec，并一起编写了《The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends》。RSpec中第一个基于故事的框架，后来被主要由Aslak Hellesøy开发的Cucumber取代。
+
+2008 年，参与了围绕BDD进行的首轮讨论的克里斯马茨，提出了特性注入(Feature Injection)的想法，使BDD可以覆盖分析空间并提供从初期的展望到编码和发布的整个软件生命周期过程的改造。
+
+## 如何进入敏捷开发？
+敏捷开发包含一系列的思维模式、设计方法、过程管理，这些思考方式和管理方法非常有助于实践敏捷宣言所宣称的目标。但所涉及的技术队桟既深且广，初学者往往摸不着头脑，因此本教程首先准备了一套入门指南。
+
+[针对初学者的入门指南(教程仍在写作中...)](tutorial)
