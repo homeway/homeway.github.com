@@ -759,3 +759,18 @@ Mac 平台
 * [Sublime Text 2](http://www.sublimetext.com/2) + [MarkdownEditing](http://ttscoff.github.com/MarkdownEditing/) / [教程](http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/)
 
 \*** 如有更好的 Markdown 免费编辑器推荐，请到[这里反馈](https://gitcafe.com/riku/Markdown-Syntax-CN/tickets/1)，谢谢！
+
+* * * * 
+##补充
+###表格的用法
+    | Tables        | Are           | Cool  |
+    | ------------- |:-------------:| -----:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
+    
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
