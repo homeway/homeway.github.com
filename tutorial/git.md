@@ -6,6 +6,7 @@ tagline: 快速浏览git世界
 {% include JB/setup %}
 
 ##Git安装
+
 当Rails流行的时候，Git已经是开源社区中最主要的版本管理系统了。
 
 Git与其他开源社区的工具一样，天然地生长在unix类操作系统上（linux、macos、bsd、unix等），这主要是指在windows下使用git是需要一些额外工作的。但这方面的文章很多，本文不打算探讨。
@@ -155,4 +156,3 @@ Git原本有100多个独立的脚本命令，后来被合并为git的子命令�
 
 ##github团队开发
 [github团队开发的几种模式](http://xiaocong.github.io/blog/2013/03/20/team-collaboration-with-github/)
-

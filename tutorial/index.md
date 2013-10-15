@@ -16,6 +16,8 @@ group: navigation
 
 * [Git](git.html)
 * [Cucumber初接触](cucumber-first.html)
+* [rvm](rvm.html)
+* [ruby gem](gem.html)
 * [Markdown](markdown.html)
 * [Textmate/Sublime](sublime.html)
 * [Cucumber高级](cucumber-advance.html)
