@@ -8,7 +8,7 @@ title: Cucumber初接触
 
 ##BDD开发步骤
 《The RSpec Book》（英文版）28页，有一个经典的BDD周期说明图示，足以说明为什么RSpec还不够，还要外加一层Cucumber来做测试。
-{% img /images/bdd_cycle.png %}
+![BDD-cycle](bdd_cycle.png)
 
 简单来说，本文要使用的BDD开发的具体步骤就是：
 
@@ -43,16 +43,15 @@ Cucumber已经有了第一本专业的中文书《Cucumber：行为驱动开发�
 
 建立一个feature目录，然后编辑文件`feature/adding.feature`
 
-{% codeblock lang:Cucumber %}
     # language: zh-CN
     功能: 加法计算
       这是一个模拟计算器的工具，目的是演示基本的Cucumber应用。
-
+      
       在这一类Cucumber文档中，你不仅可以用中文书写，而且可以做非常详尽的描述，比如我现在这样。
       你可以写一个简单的命令行程序calc.rb，然后只接收一个字符串参数，如"2+2"。
-
+      
       从用户角度测试时，我们是把命令行程序与参数字符串连接起来调用的，即"calc.rb 2+2"，而我们会对屏幕输出的结果进行校验，案例在场景大纲的例子中给出。
-
+      
       场景大纲: 两数相加
         假如输入一个 "<input>"
         当计算器运行时
@@ -62,7 +61,6 @@ Cucumber已经有了第一本专业的中文书《Cucumber：行为驱动开发�
           | input | output |
           | 2+2   | 4      |
           | 98+1  | 99     |
-{% endcodeblock %}
 
 为了满足这个功能要求，我们要建立一个文件，这种做法叫`留桩`：
 
