@@ -1,6 +1,7 @@
 ---
 layout: page
-title: The RSpec Book
+title: 《The RSpec Book》
+group: navigation
 ---
 {% include JB/setup %}
 
@@ -13,3 +14,7 @@ title: The RSpec Book
   * [第3章 功能描述](getting-started-with-rspec-and-cucumber/3.html)
   * [第4章 Cucumber自动化测试](getting-started-with-rspec-and-cucumber/4.html)
   * [第5章 使用RSpec描述代码](getting-started-with-rspec-and-cucumber/5.html)
+  * [第6章 添加新功能](getting-started-with-rspec-and-cucumber/6.html)
+  * [第7章 指定算法](getting-started-with-rspec-and-cucumber/7.html)
+  * [第8章 重构](getting-started-with-rspec-and-cucumber/8.html)
+  * [第9章 总结](getting-started-with-rspec-and-cucumber/9.html)
