@@ -18,3 +18,7 @@ group: navigation
   * [第7章 指定算法](getting-started-with-rspec-and-cucumber/7.html)
   * [第8章 重构](getting-started-with-rspec-and-cucumber/8.html)
   * [第9章 总结](getting-started-with-rspec-and-cucumber/9.html)
+* 第2部分 行为驱动开发
+  * [第10章 使用BDD的情况](behaviour-driven-development/10.html)
+  * [第11章 编写有用的软件](behaviour-driven-development/11.html)
+ 
