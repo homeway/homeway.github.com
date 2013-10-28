@@ -7,6 +7,8 @@ group: navigation
 
 本系列文章是从*《The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends》*这本书翻译而来。
 
+翻译中的示例代码，包括Cucumber和Ruby代码，大都采用了中文，从[github](https://github.com/homeway/the-rspec-book-exsamples)上可以下载或Clone这些代码。
+
 * [前言](preface.html)
 * 第1部分 RSpec和Cucumber起步
   * [第1章 介绍](getting-started-with-rspec-and-cucumber/1.html)
